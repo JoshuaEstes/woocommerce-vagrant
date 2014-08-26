@@ -1,0 +1,19 @@
+{
+    "name": "joshuaestes/woocommerce-vagrant",
+    "description": "Used to stand up a development box for vagrant",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joshua Estes",
+            "email": "Joshua@Estes.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phing/phing": "*",
+        "wp-cli/wp-cli": "*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
