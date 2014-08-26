@@ -17,7 +17,7 @@ cd woocommerce-vagrant
 curl -sS https://getcomposer.org/installer | php
 php composer.phar install
 vagrant up
-php bin/phing wp:core:download wp:core:config vagrant:wp:core:install
+php bin/phing wp:core:download wp:core:config vagrant:wp:core:install vagrant:wp:plugin:install
 ```
 
 # Configure
